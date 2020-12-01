@@ -12,7 +12,7 @@ public class Rechnung {
         pos2 = new BestellPos(new Artikel("Putzlappen", 3.45f), 2);
     }   
     
-    public float Betrag(){
+    public float getBetrag(){
         return pos1.getBetrag() + pos2.getBetrag();
     }
     
